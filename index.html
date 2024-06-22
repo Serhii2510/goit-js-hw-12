@@ -6,7 +6,9 @@
     <title>Search images</title>
     
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-e418de59.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-b0d10f48.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-f41d09d3.css">
   </head>
   <body>
     <form class="search-images-form">
@@ -19,9 +21,13 @@
       <button class="search-images-form-btn" type="submit">Search</button>
     </form>
 
-    <span class="loader visually-hidden"></span>
-
     <ul class="gallery"></ul>
+
+    <button class="load-more-btn visually-hidden" type="button">
+      Load more
+    </button>
+
+    <span class="loader visually-hidden"></span>
 
     
   </body>
